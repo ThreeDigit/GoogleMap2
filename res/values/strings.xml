@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GooglemapWithMultiMarkers</string>
+    <string name="google_android_map_api_key">AIzaSyDpp-4F-dOAakthZSUQS6B1NtFOBax2Pj4</string>
+</resources>

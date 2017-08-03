@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/marker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="marker1"
+            />
+
+        <Button
+            android:id="@+id/marker2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="marker2"
+            android:onClick="setupMarkers2"
+
+            />
+
+        <Button
+            android:id="@+id/marker3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="marker3" />
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
